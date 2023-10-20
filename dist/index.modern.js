@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, forwardRef, useState, useCallback, useImperativeHandle, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Animated from 'animated/lib/targets/react-dom';
-import Hammer from 'react-hammerjs';
+var Hammer = typeof window !== "undefined" ? require("hammerjs") : undefined;
 
 var styles = {"tridi-viewer":"_lqEjs","tridi-draggable-true":"_2kfM8","tridi-recording-true":"_f-Ry5","tridi-viewer-image":"_2VqNg","tridi-viewer-image-shown":"_3zqPm","tridi-viewer-image-hidden":"_1WW7u","tridi-hint-overlay":"_3Ohj5","tridi-hint":"_1Wsta","tridi-hint-text":"_14UgB","tridi-loading":"_JdKYk","load8":"_IpOvS","fadeIn":"_3uImN"};
 
