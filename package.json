@@ -36,10 +36,7 @@
 	},
 	"dependencies": {
 		"animated": "^0.2.2",
-		"autoprefixer": "^9",
-		"postcss": "^7",
-		"react-hammerjs": "^1.0.1",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat"
+		"react-hammerjs": "1.0.2"
 	},
 	"peerDependencies": {
 		"prop-types": "^15.7.2",
