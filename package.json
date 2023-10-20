@@ -35,8 +35,7 @@
 		"release": "sh scripts/release.sh"
 	},
 	"dependencies": {
-		"animated": "^0.2.2",
-		"react-hammerjs": "1.0.2"
+
 	},
 	"peerDependencies": {
 		"prop-types": "^15.7.2",
