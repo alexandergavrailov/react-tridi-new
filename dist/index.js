@@ -4,7 +4,7 @@ var React = require('react');
 var React__default = _interopDefault(React);
 var PropTypes = _interopDefault(require('prop-types'));
 var Animated = _interopDefault(require('animated/lib/targets/react-dom'));
-var Hammer = _interopDefault(require('react-hammerjs'));
+var Hammer = typeof window !== "undefined" ? require("hammerjs") : undefined;
 
 var styles = {"tridi-viewer":"_lqEjs","tridi-draggable-true":"_2kfM8","tridi-recording-true":"_f-Ry5","tridi-viewer-image":"_2VqNg","tridi-viewer-image-shown":"_3zqPm","tridi-viewer-image-hidden":"_1WW7u","tridi-hint-overlay":"_3Ohj5","tridi-hint":"_1Wsta","tridi-hint-text":"_14UgB","tridi-loading":"_JdKYk","load8":"_IpOvS","fadeIn":"_3uImN"};
 
