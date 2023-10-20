@@ -17,7 +17,7 @@ import useTridiKeyPressHandler from './hooks/useTridiKeyPressHandler';
 import ControlBar from './components/ControlBar';
 import Pins from './components/Pins';
 import StatusBar from './components/StatusBar';
-import Hammer from 'hammerjs';
+import Hammer from 'react-hammerjs';
 
 const AnimatedDiv = Animated.div;
 
